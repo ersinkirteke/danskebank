@@ -52,6 +52,31 @@ MARKET:
   FINLAND:"FI"
   NORWAY:"NO"
   SWEDEN:"SE"
+  
+USED PATTERNS and PRINCIPLES:
+
+- Unit of Work pattern
+- Generic Repository pattern
+- Abstracy Factory pattern
+- Strategy pattern
+- Specifiation pattern
+- Service layer
+- DDD(Domain Driven Design)
+- MVC pattern
+- SOLID principle
+- Common Reuse principle
+- Common Closure principle
+- DRY
+- YAGNI
+- KISS
+
+USED PACKAGES:
+
+- AutoMapper
+- Swashbuckle for open api specification
+- FluenValidation for validations
+- Entity Framework Core
+- Moq for unit tests
 
 TODOs: 
   - use mediatR and Refit for CQRS pattern
