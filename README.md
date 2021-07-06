@@ -3,9 +3,9 @@
   docker-compose --project-name danskebank up
   
   sql server login :
-  localhost,1453
-  sa
-  danskebank2021!
+  server: localhost,1453
+  user: sa
+  password: danskebank2021!
   
 2-) run project danske.scheduler.api
 
