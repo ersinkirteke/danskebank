@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,10 +10,7 @@ namespace danske.scheduler.producer.test
     {
         public SchedulerControllerTest()
         {
-            var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", false)
-                .Build();
+
         }
 
         [Fact]
