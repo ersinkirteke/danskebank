@@ -2,6 +2,11 @@
 
   docker-compose --project-name danskebank up
   
+  sql server login :
+  server: localhost,1453
+  user: sa
+  password: danskebank2021!
+  
 2-) run project danske.scheduler.api
 
 3-) make a request with swagger or you can use postman collection json (DanskeBank.postman_collection.json) inside repository for all the requests
@@ -88,3 +93,5 @@ TODOs:
   - write unit test for controllers and services
   - add elk stack for logging
   - use correlationid for tracking
+  - use key vault and key valet pattern for appsettings credentials
+  - dockerize project
