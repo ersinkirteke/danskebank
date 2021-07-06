@@ -4,7 +4,10 @@
   
 2-) run project danske.scheduler.api
 
-3-) make a request with swagger or you can use postman collection json inside repository for all the requests
+3-) make a request with swagger or you can use postman collection json (DanskeBank.postman_collection.json) inside repository for all the requests
+
+![image](https://user-images.githubusercontent.com/16955249/124642321-6244bf80-de98-11eb-8e8f-ed34a19210e7.png)
+
 
 SMALL COMPANY AND DENMARK
 
