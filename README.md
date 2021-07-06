@@ -94,3 +94,4 @@ TODOs:
   - add elk stack for logging
   - use correlationid for tracking
   - use key vault and key valet pattern for appsettings credentials
+  - dockerize project
