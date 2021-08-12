@@ -2,6 +2,7 @@
 using danske.scheduler.common.domain.models;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace danske.scheduler.producer.api.Controllers
 {
